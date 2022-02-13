@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
         {{-- font-awsome --}}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" type="text/css" media="all">
+        <script src="https://kit.fontawesome.com/9c1f7320a3.js" crossorigin="anonymous"></script>
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -63,12 +63,7 @@
                     @include('layouts.navigation')
 
                     <!-- Page Heading -->
-                    <header class="bg-white dark:bg-gray-700 dark:text-gray-200 shadow">
-                        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                            {{ $header }}
-                        </div>
-                    </header>
-
+             
                     <!-- Page Content -->
                     <main class="bg-white dark:bg-gray-700 dark:text-gray-200 shadow">
                         {{ $slot }}
